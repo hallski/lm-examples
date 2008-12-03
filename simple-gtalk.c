@@ -3,6 +3,7 @@
  */
 
 #include <stdlib.h>
+#include <string.h>
 #include <glib.h>
 #include <loudmouth/loudmouth.h>
 
