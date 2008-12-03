@@ -1,0 +1,19 @@
+Introduction:
+=============
+
+These are a set of examples of using Loudmouth. If you want to add an example
+or improve an existing one, simply fork the module and drop me a pull request
+when if you want to include it.
+
+Building the Examples:
+======================
+
+CMake is being used to build these examples. Simply run
+
+cmake .
+make
+
+in order to build them, let me know of any problems.
+
+// Mikael Hallendal, micke@hallendal.net
+
