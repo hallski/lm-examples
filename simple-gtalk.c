@@ -40,7 +40,6 @@ static void
 send_message (LmConnection *conn, Arguments *arguments)
 {
     LmMessage     *m;
-    LmMessageNode *node;
 
     m = lm_message_new (arguments->test_contact, LM_MESSAGE_TYPE_MESSAGE);
 

@@ -2,8 +2,9 @@ cmake_minimum_required(VERSION 2.6)
 
 project(LmExamples C)
 
-find_package(PkgConfig REQUIRED)
+include(Warnings.cmake)
 
+find_package(PkgConfig REQUIRED)
 pkg_check_modules(LMDEBUG REQUIRED loudmouth-1.0)
 
 add_executable(simple-gtalk simple-gtalk.c)
